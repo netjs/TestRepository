@@ -3,7 +3,7 @@ package com.netjstech.codedemos;
 public class Arithmetic {
    public int sum(int a, int b){
 	   if(a >= 12)
-		   throw new IllegalArgumentException("Value should be less than 10");
+		   throw new IllegalArgumentException("Value should be less than 12");
 	   return a + b;
    }
    
